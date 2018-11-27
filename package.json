@@ -1,0 +1,12 @@
+{
+  "name": "pinboard-json-to-org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Florian Schrödl <hello@florianschroedl.com>",
+  "license": "MIT"
+}
