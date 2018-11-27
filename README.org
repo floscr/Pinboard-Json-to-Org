@@ -1,0 +1,11 @@
+* Pinboard to Org Mode
+
+I wanted to move my pinboard bookmarks from pinboard to orgmode.
+
+Since all my new links more and more moved to org mode, my pinboard archive got dusty.
+
+I did not want to have two archives to maintain, so I decided to make the move.
+
+You can export your pinboard archive via https://pinboard.in/export/format:json/
+
+Put the `json` file in the data module and run =npm run start=
