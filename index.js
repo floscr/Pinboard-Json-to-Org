@@ -5,6 +5,8 @@ const data = require('./data/pinboard_export.json');
 
 const formatTags = R.pipe(
   R.replace(/\s/g, ":"),
+  R.replace(/-/g, "_"),
+  R.toUpper,
   x => `:${x}:`,
 );
 
